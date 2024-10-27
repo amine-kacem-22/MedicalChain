@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #f4f4f4;
+  padding: 60px; /* Increase padding for more spacing */
+  border-radius: 20px; /* Increase border radius for rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Increase box shadow for depth */
+  width: 70%; /* Make the form wider */
+  max-width: 800px; /* Limit the maximum width */
+}
+
+h2 {
+  font-size: 32px; /* Increase font size for heading */
+  margin-bottom: 30px; /* Increase margin for more spacing */
+  background-color: #3498db; /* Add background color for heading */
+  color: #fff; /* Change text color to white */
+  padding: 20px; /* Add padding to the heading */
+  border-top-left-radius: 20px; /* Add rounded corners to the heading */
+  border-top-right-radius: 20px; /* Add rounded corners to the heading */
+  text-align: center; /* Center align the text */
+}
+
+p {
+  font-size: 22px; /* Increase font size for paragraphs */
+  margin: 20px 0; /* Increase margin for more spacing */
+}

@@ -1,0 +1,77 @@
+/* MyPatients.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns items at the start of the container (top) */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for the whole container */
+  }
+  
+  .search-section {
+    align-self: flex-end; /* Aligns the search section to the top right */
+    position: absolute; /* Allows absolute positioning */
+    top: 20px; /* Distance from the top of the container */
+    right: 20px; /* Distance from the right of the container */
+    background-color: #007bff; /* Background color for the search section */
+    color: #fff; /* Text color for the search section */
+    padding: 20px;
+    z-index: 1; /* Ensures search section is on top of patient list */
+    border-radius: 10px; /* Adds rounded corners to the search section */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds shadow to the search section */
+  }
+  
+  .patient-list {
+    width: 80%; /* Adjust the width of the patient list */
+    max-width: 800px;
+    background-color: #fff; /* Background color for the patient list */
+    padding: 20px;
+    border-radius: 10px; /* Adds rounded corners to the patient list */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds shadow to the patient list */
+    text-align: center; /* Center the contents horizontally */
+    margin-top: 20px; /* Add margin to push it higher up */
+  }
+  
+  .patient-list h3 {
+    font-size: 24px; /* Increase the font size of the heading */
+    margin-bottom: 20px; /* Add spacing below the heading */
+  }
+  
+  .search-input {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    background-color: #0056b3; /* Darker shade of the search section color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .patient-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patient-list th, .patient-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .patient-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .view-medical-record-button {
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
